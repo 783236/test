@@ -1,0 +1,15 @@
+CSS
+body {
+	background-color: peachpuff;
+}
+
+h1{
+	color: black;
+	text-align: center;
+}
+
+p{
+	font-family: "verdana", sans-serif;
+	color: firebrick;
+	text-align: center;
+}
