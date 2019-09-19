@@ -39,3 +39,7 @@ p{
 		li a:hover {
 		  background-color: #111;
 		}
+.header {
+	background-color: cornsilk;
+  	padding: 20px;
+  	text-align: center;
