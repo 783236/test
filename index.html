@@ -11,13 +11,6 @@
 		body{
 			margin: 0;
 		}
-		h1{
-			color: black;
-	    	text-decoration: overline;
-		text-decoration: underline;
-	    	font-family: Georgia, serif;
-	    	text-align:center;
-		}
 		p.groove {
 			border-style: groove;
 		}
@@ -34,40 +27,47 @@
 		}
 	</style>
 </head>
-
-<body style="background-color: antiquewhite;">
+<body id="homebackc">
 					     
 	<div class:"header">
 		<h1>...</h1>
 	 </div>
-	<div class="topnav">
- 	 	<a href="#index">Home</a>
-  		<a href="#interests">Interests</a>
- 		 <a href="skills">Skills</a>
-	</div>
 	     
 	<ul>
 	<img scr="https://ca.images.search.yahoo.com/search/images;_ylt=AwrJ3s9t6YNd8qsAsNvtFAx.?fr=mcafee&ei=UTF-8&p=aesthetic+computer+class+clipart&fr2=sp-qrw-corr-top&norw=1#id=31&iurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fd9%2Fe5%2F34%2Fd9e53460d638bf961040ef9a80aa6867.jpg&action=click alt= ocean style="float:right;width:42px;height:42px;">
-	  <li><a class="active" href="pages/index.html">Home</a></li>
-	  <li><a href="pages/Interests.html">Interests</a></li>
-	  <li><a href="pages/Skills.html">Skills</a></li>
-	  <li><a href="pages/Projects.html">Projects</a></li>
-	  <li><a href="pages/Experience.html">Experience</a></li>
-	  <li><a href="pages/Assignments.html">Assignments</a></li>
-	</ul><br>
+	 <div class="topnav">
+ 	 	<a href="#index">Home</a>
+  		<a href="#interests">Interests</a>
+ 		<a href="skills">Skills</a>
+		<a href="projects">Projects</a>
+		<a href="asssignments">Assignments</a>
+	</div><br>
 
-	<h1><b>Welcome To My Website</b></h1><br>
-
-	<h2 style="text-align:center;">
-		<p style="color: firebrick;">Here are essential things you need to know about my website.<br> You can find information about me, my experience with technology, my skills, any interests<br> that I have, what tech projects I am working on, and what assignments I did in computer science.</p>     
-	</h2>
+	<h1 id="hometitle"><b>Welcome To My Website</b></h1><br>
 	
-<form action="/action_page.php">
-  <input type="text" name="fname" placeholder="First name"><br>
-  <input type="text" name="lname" placeholder="Last name"><br>
-  <input type="submit" value="Submit">
-</form>
-	<p><strong>Note:</strong> Please State Your Name.</p>
+	<div class="row">
+ 	<div class="column side">
+		<h2>Side</h2>
+	<p>Please State Your Name</p>
+	<form action="/action_page.php">
+  		<input type="text" name="fname" placeholder="First name"><br>
+ 		 <input type="text" name="lname" placeholder="Last name"><br>
+ 		 <input type="submit" value="Submit">
+	</form>
+  </div>
+	
+	<div class="column middle">
+		<h2 style="text-align:center;"> </h2>
+		<p style="color: firebrick;">Here are essential things you need to know about my website.<br> You can find information about me, my experience with technology, my skills, any interests<br> that I have, what tech projects I am working on, and what assignments I did in computer science.</p>     
+		</div>
+	
+	<div class="column side">
+		<h2>Content</h2><br>
+		<h3>Interest</h3>
+		<a href="pages/Interests.html">
+			<img src="interest-clipart_1071513 (1)" alt="page" style="width:200px;height:200px;"border:0;"> 
+		
+
 	
 	
 	 
