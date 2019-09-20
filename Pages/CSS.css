@@ -16,7 +16,7 @@ p{
 }
 
 .active {
-	ul {
+	ul 
 		  list-style-type: none;
 		  margin: 0;
 		  padding: 0;
@@ -24,11 +24,11 @@ p{
 		  background-color: #333;
 		}
 
-		li {
+	li {
 		  float: left;
 		}
 
-		li a {
+	li a {
 		  display: block;
 		  color: white;
 		  text-align: center;
@@ -36,6 +36,18 @@ p{
 		  text-decoration: none;
 		}
 
-		li a:hover {
+	li a:hover {
 		  background-color: #111;
+		}
+
+.header {
+	background-color: cornsilk;
+	padding: 20px;
+	text-align: center;
+		}
+.footer {
+	background-color: cornsilk;
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
 		}
