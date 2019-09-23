@@ -6,7 +6,7 @@ body {
 
 h1{
 	color: black;
-	p.groove border-style: groove;
+	border-style: groove;
 	text-align: center;
 }
 
@@ -16,14 +16,14 @@ p{
 	text-align: center;
 }
 
-.active {
+/*.active {
 	ul 
 		  list-style-type: none;
 		  margin: 0;
 		  padding: 0;
 		  overflow: hidden;
 		  background-color: #333;
-		}
+		}*/
 
 	li {
 		  float: left;
@@ -54,6 +54,7 @@ p{
 	float: center;
 		}
 
+
 .topnav {
 	overflow: hidden;
  	background-color: black;
@@ -72,11 +73,7 @@ p{
 }
 
 
-.header {
-	background-color: cornsilk;
-  	padding: 20px;
-  	text-align: center;
-  }
-}
+
+
 	
 
