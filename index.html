@@ -22,6 +22,10 @@
 		p.solid {
 			border-style: solid;
 		}
+		.content {
+			position: absolute;
+			right: 0;
+		}
 
 	</style>
 </head>
@@ -41,22 +45,23 @@
 	</div><br>
 
 	
-	<h2 left: auto;>Please State Your Name</h2>
-	<form action="/action_page.php">
-  		<input type="text" name="fname" placeholder="First name"><br>
- 		 <input type="text" name="lname" placeholder="Last name"><br>
- 		 <input type="submit" value="Submit">
-	</form>
   
 	
 	
 		<h2> 
 		<p style= "text-align:center;" font-family: "courier new", monospace;"color: firebrick;">Here are essential things you need to know about my website.<br> You can find information about me, my experience with technology, my skills, any interests<br> that I have, what tech projects I am working on, and what assignments I did in computer science.</p>  
 		</h2>   
+	
+	<h2 left: auto;>Please State Your Name</h2>
+	<form action="/action_page.php">
+  		<input type="text" name="fname" placeholder="First name"><br>
+ 		 <input type="text" name="lname" placeholder="Last name"><br>
+ 		 <input type="submit" value="Submit">
+	</form>
 		
 
 	<aside>
-		<h2 float: right;>Content</h2><br>
+		<h2 class= "content" >Content</h2><br>
 		<a href="Pages/Interests.html">
 			<img src="images/assignment.png" alt="page" style="width:250px;height:250px;"border:0;"><br></a>
 		<a href="Pages/Skills.html">
