@@ -49,7 +49,12 @@ p{
 	  background-color: #ddd;
 	  color: darkgrey;
 }
-
+.image {
+	text-align:center;
+}
+.button {
+	text-align:center;
+}
 
 
 
