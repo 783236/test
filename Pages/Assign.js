@@ -3,29 +3,22 @@ function greeting(){
 	alert("Hello "+box);
 }
 
-//function second(){
-//	var box=prompt("What is the last degree of the triangle?""30 and 60");
-//	if (user_interger "90") {
-//		alert("Correct!");
-//	}
-//	else {
-//		alert("Wrong! Try Again.");
-//	} 
+
   
 
-function second(){
-	var x = try(180, 30, 60);
+function triangle(){
+	var firstAngle = parseInt(prompt("Enter First Angle"));
+	var secondAngle = parseInt(prompt("Enter Second Angle"));
+	var thirdAngle = 180-(firstAngle+secondAngle);
+	alert("Third angle is "+thirdAngle)
 
-	function try(a, b, c){
-		return a-b-c;
 	}
 
-}
 
 
+function loop(){
+	var century1to100 = parseInt(prompt("State a year"));
+	if ("century1to100" < 100) {
+		alert("First Century");
+	}
 
-
-function submit(){
-	var box=prompt("Submit?");
-	alert("Hello "+box);
-}
