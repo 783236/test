@@ -32,9 +32,6 @@ else if {
 
 
 
-
-
-
 function century(){
 	var century1to1000 = parseInt(prompt("State a year"));
 	if ("century1to1000" < 100) {
