@@ -16,7 +16,8 @@ function triangle(){
 
 
 function number(){
-	var text = "Numbers";
+	
+	var text = alert("Numbers");
 	var i = 0;
 	while (i <=100){
 		
