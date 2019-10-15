@@ -41,7 +41,7 @@ function century(){
 	var text
 	var century1000;
 	switch (century1000) {
-		case > 100 :
+		case ""> 100 :
 			text = "1st Century";
 		break;
 		case < 100, > 200 :
