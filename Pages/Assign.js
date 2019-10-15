@@ -13,21 +13,7 @@ function triangle(){
 	}
 
 
-//  function number(){
-// 	 var user = prompt("Guess the two numbers that will show you a written number");
-// 	 for ( let i=0; i>100; i++)
-// 	 	return ("user_input")
-// 	 if (user = 4){
-// 	 	greeting = "Four";
-// 	 } else if (user = 10){
-// 	 	greeting = "Ten";
-// 	 } else if (user = 40,80){
-// 	 	greeting = "TenFour";
-// 	 }
-// 	 else  {
-// 	 	greeting = "Wrong, try again!";
-// 	 }
-// }
+
 
 function number(){
 	var text = "Numbers";
