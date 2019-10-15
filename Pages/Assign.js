@@ -13,19 +13,48 @@ function triangle(){
 	}
 
 
+//  function number(){
+// 	 var user = prompt("Guess the two numbers that will show you a written number");
+// 	 for ( let i=0; i>100; i++)
+// 	 	return ("user_input")
+// 	 if (user = 4){
+// 	 	greeting = "Four";
+// 	 } else if (user = 10){
+// 	 	greeting = "Ten";
+// 	 } else if (user = 40,80){
+// 	 	greeting = "TenFour";
+// 	 }
+// 	 else  {
+// 	 	greeting = "Wrong, try again!";
+// 	 }
+// }
+
 function number(){
-	let user = prompt("Guess the two numbers that will show you a written number");
-	for ( let i=0; i>100; i++)
-	if (user = 4){
-		greeting = "Four";
-	} else if (user = 10){
-		greeting = "Ten";
-	} else if (user = 40,80){
-		greeting = "TenFour";
+	var text = "Numbers";
+	var i = 0;
+	while (i <=100){
+		
+		if (i%4==0&&i%10==0){
+			console.log("TenFour");
+		}
+		else if (i%4==0){
+			console.log("Four");
+		}
+		else if (i%10==0){
+			console.log( "Ten");
+		}
+		
+		else {
+			console.log (i);
+		}
+		i++;
 	}
-	else  {
-		greeting = "Wrong, try again!";
-	}
+	
+
+}
+
+
+
 
 
 
@@ -33,11 +62,11 @@ function number(){
 
 function century(){
 	var century1to1000 = parseInt(prompt("State a year"));
-	if ("century1to1000" < 100) {
+	if ("centuryto1000" < 100) {
 		alert("1st Century");
 	} if ("centuryto1000" > 100 < 200) {
 		alert("2nd Century");
-	} if ("centuryto1000" > 200 < 300) {
+	} if ("centuryto1000"  > 200 < 300) {
 		alert("3rd Century");
 	} if ("century1to1000" >300 <400) {
 		alert("4th Century");
@@ -79,3 +108,4 @@ function century(){
 		alert("21st Century");
 	}
 
+}
