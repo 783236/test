@@ -51,11 +51,11 @@ function century(){
 	var century1to1000 = parseInt(prompt("State a year"));
 	if ("centuryto1000" < 100) {
 		alert("1st Century");
-	} if ("centuryto1000" > 100 < 200) {
+	} else if ("centuryto1000" > 100 < 200) {
 		alert("2nd Century");
-	} if ("centuryto1000"  > 200 < 300) {
+	} else if ("centuryto1000"  > 200 < 300) {
 		alert("3rd Century");
-	} if ("century1to1000" >300 <400) {
+	} else if ("century1to1000" >300 <400) {
 		alert("4th Century");
 	} if ("century1to1000" >400 <500) {
 		alert("5th Century");
