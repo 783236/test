@@ -49,8 +49,8 @@ function number(){
 
 function century(){
 	var century1to1000 = parseInt(prompt("State a year"));
-	if ("centuryto1000" < 100) {
-		alert("1st Century");
+	if ("century1to1000" < 100) {
+		return "1st Century";
 	} else if ("centuryto1000" > 100 < 200) {
 		alert("2nd Century");
 	} else if ("centuryto1000"  > 200 < 300) {
