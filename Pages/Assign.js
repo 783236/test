@@ -39,7 +39,7 @@ function number(){
 
 function century(){
 	var text
-	var century1000 ("input");
+	var century1000;
 	switch (century1000) {
 		case > 100 :
 			text = "1st Century";
