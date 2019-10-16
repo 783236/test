@@ -9,7 +9,7 @@ function triangle(){
 	var firstAngle = parseInt(prompt("Enter First Angle (60 or less)"));
 	var secondAngle = parseInt(prompt("Enter Second Angle (60 or less)"));
 	var thirdAngle = 180-(firstAngle+secondAngle);
-	alert("Third angle is "+thirdAngle);
+		alert("Third angle is "+thirdAngle);
 	}
 
 
