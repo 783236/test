@@ -82,7 +82,9 @@ function century(){
 			alert ("20th Century");
 		else if (first <2100)
 			alert ("21st Century");
-		
+		else {
+			alert ("Not Valid");
+		}
 }
 
 
