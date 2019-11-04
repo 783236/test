@@ -87,5 +87,11 @@ function century(){
 		}
 }
 
-
+function to_celcius(array){
+  var calcu = (array[i]- 32) *5/9;
+  
+  console.log (calcu + " degrees Celcius");
+  
+}
+to_celcius ([24, 48, 52, 74]);
  
