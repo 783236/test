@@ -87,7 +87,7 @@ function century(){
 		}
 }
 
-function login(){
+function pass(){
   let username = prompt("Username: ");
   let password = prompt("Password: ");
   if(userName=="abeer" && password=="Aa"){
