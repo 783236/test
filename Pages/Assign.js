@@ -94,7 +94,7 @@ function login(){
     alert ("Good Morning")
   }
   else(
-  alert ("Invalid");
+  alert ("Invalid")
   )
 }
 
