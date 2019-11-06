@@ -87,11 +87,16 @@ function century(){
 		}
 }
 
-function to_celcius(array){
-  var calcu = (array[i]- 32) *5/9;
-  
-  console.log (calcu + " degrees Celcius");
-  
+function login(){
+  let username = prompt("Username: ");
+  let password = prompt("Password: ");
+  if(userName=="abeer" && password=="Aa"){
+    alert ("Good Morning")
+  }
+  else(
+  alert ("Invalid");
+  )
 }
-to_celcius ([24, 48, 52, 74]);
+
+
  
