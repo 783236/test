@@ -98,5 +98,16 @@ function pass(){
   }
 }
 
+function capitol(msg){
+  var cse = msg.toLowerCase();
+  for (var i=0; i<msg.length; i++);
+  if ([i]%2==0){
+    msg.toUpperCase();
+  }
+  
+  console.log(msg);
+}
+capitol = (["Are these letters capitalized as wanted"]);
+
 
  
