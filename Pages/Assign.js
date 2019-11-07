@@ -88,8 +88,8 @@ function century(){
 }
 
 function pass(){
-  let username = prompt("Username: ");
-  let password = prompt("Password: ");
+  var username = prompt("Username: ");
+  var password = prompt("Password: ");
   if(userName=="abeer" && password=="Aa")
     alert ("Good Morning");
   
