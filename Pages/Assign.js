@@ -90,12 +90,12 @@ function century(){
 function pass(){
   let username = prompt("Username: ");
   let password = prompt("Password: ");
-  if(userName=="abeer" && password=="Aa"){
+  if(userName=="abeer" && password=="Aa")
     alert ("Good Morning");
-  }
-  else(
+  
+  else{
   alert ("Invalid");
-  )
+  }
 }
 
 
