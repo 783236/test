@@ -91,10 +91,10 @@ function pass(){
   let username = prompt("Username: ");
   let password = prompt("Password: ");
   if(userName=="abeer" && password=="Aa"){
-    alert ("Good Morning")
+    alert ("Good Morning");
   }
   else(
-  alert ("Invalid")
+  alert ("Invalid");
   )
 }
 
