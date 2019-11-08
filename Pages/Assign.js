@@ -87,6 +87,13 @@ function century(){
 		}
 }
 
+function length(word){
+	var rest = word.length;
+	console.log (rest);
+}
+length ("the length of a sentence");
+
+
 function pass(){
   var username = prompt("Username: ");
   var password = prompt("Password: ");
