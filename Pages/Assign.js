@@ -105,7 +105,7 @@ function pass(){
   }
 }
 
-function shape(phrase){
+function capitol(phrase){
   altstr = "";
   for(let i=1; i<phrase.length; i+=2){
     altstr += phrase[i-1].toUpperCase();
@@ -113,5 +113,5 @@ function shape(phrase){
   }
   return(altstr);
 }
-console.log(shape("Are these letters capitalized as wanted"));
+console.log(capitol("Are these letters capitalized as wanted"));
 
