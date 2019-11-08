@@ -97,11 +97,11 @@ length ("the length of a sentence");
 function pass(){
   var username = prompt("Username: ");
   var password = prompt("Password: ");
-  if(userName=="abeer" && password=="Aa")
-    alert ("Good Morning");
+  	if(userName=="abeer" && password=="Aa")
+	    alert ("Good Morning");
   
-  else{
-  alert ("Invalid");
+ 	else{
+  	   alert ("Invalid");
   }
 }
 
