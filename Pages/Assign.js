@@ -99,7 +99,6 @@ function pass(){
   var password = prompt("Password: ");
   	if( userName=="abeer" && password=="Aa")
 	    alert ("Good Morning");
-  
  	else{
   	   alert ("Invalid");
   }
