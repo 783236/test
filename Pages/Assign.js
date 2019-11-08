@@ -87,11 +87,11 @@ function century(){
 		}
 }
 
-function length(word){
+function size(word){
 	var rest = word.length;
 	console.log (rest);
 }
-length ("the length of a sentence");
+size ("the length of a sentence");
 
 
 function pass(){
