@@ -105,16 +105,13 @@ function pass(){
   }
 }
 
-function capitol(msg){
-  var cse = msg.toLowerCase();
-  for (var i=0; i<msg.length; i++);
-  if ([i]%2==0){
-    msg.toUpperCase();
+function shape(phrase){
+  altstr = "";
+  for(let i=1; i<phrase.length; i+=2){
+    altstr += phrase[i-1].toUpperCase();
+    altstr += phrase[i].toLowerCase();
   }
-  
-  console.log(msg);
+  return(altstr);
 }
-capitol = (["Are these letters capitalized as wanted"]);
+console.log(shape("Are these letters capitalized as wanted"));
 
-
- 
