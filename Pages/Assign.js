@@ -114,3 +114,6 @@ function capitol(phrase){
 }
 console.log(capitol("Are these letters capitalized as wanted"));
 
+
+const sortGiftCode = code => code.split("").sort().join("");
+
