@@ -114,5 +114,13 @@ function capitol(phrase){
 }
 console.log(capitol("Are these letters capitalized as wanted"));
 
+function encrypt(){
+}
+
+
+function decrypt(){
+}
+
+
 
 
