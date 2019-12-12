@@ -115,7 +115,23 @@ function capitol(phrase){
 console.log(capitol("Are these letters capitalized as wanted"));
 
 function encrypt(){
+    var input = prompt("Type message");
+    var half = input.split("");
+    var message = ""
+    console.log(half)
+    for (i = 0; i < input.length; i++) {
+      if (i % 2==0){
+        message += String.fromCharCode(half[i].charCodeAt()-2)
+      }
+      else {
+        message += String.fromCharCode(half[i].charCodeAt()+3)
+      }
+   
+    }   
+console.log(message)
 }
+encrypt ()
+
 
 
 function decrypt(){
