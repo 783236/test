@@ -114,6 +114,7 @@ function capitol(phrase){
 }
 console.log(capitol("Are these letters capitalized as wanted"));
 
+
 function encrypt(){
     var input = prompt("Type message");
     var half = input.split("");
